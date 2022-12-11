@@ -9,20 +9,20 @@ import mongodb from "../assets/mongodb.png";
 import node from "../assets/node.png";
 import git from "../assets/git.png";
 
-const SecondSection = () => {
+const SkillsSection = () => {
   const technologies = [html, css, js, react, redux, mongodb, node, git];
 
   return (
     <section
       id="skills"
       // className="flex snap-center min-h-full w-[80%] mx-auto text-white overflow-hidden 2xl:px-52"
-      className="pt-4 flex snap-center min-h-screen w-[90%] mx-auto text-white overflow-hidden"
+      className="pt-4 flex snap-center min-h-screen w-[80%] mx-auto text-white overflow-hidden"
     >
       <div className="flex flex-col justify-between space-y-4 py-4 my-auto mx-auto w-[100%]">
         <div className="my-auto mx-auto text-center">
           <p className="text-[2.5rem] px-3 text-slate-200">Skills</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-[100%]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-[100%] justify-items-center">
           {technologies.map((el) => {
             return (
               <div
@@ -42,4 +42,4 @@ const SecondSection = () => {
   );
 };
 
-export default SecondSection;
+export default SkillsSection;

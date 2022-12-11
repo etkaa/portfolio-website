@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import SkillsSection from "./SkillsSection";
+import ProjectsSection from "./ProjectsSection";
 
 function Home() {
   return (
@@ -10,8 +10,8 @@ function Home() {
     hide-scrollbar scroll-smooth snap-start snap-y snap-mandatory"
     >
       <FirstSection />
-      <SecondSection />
-      <ThirdSection />
+      <SkillsSection />
+      <ProjectsSection />
     </div>
   );
 }
