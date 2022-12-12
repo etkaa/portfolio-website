@@ -1,13 +1,12 @@
 import React from "react";
-import Profile from "../assets/profile.jpg";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import js from "../assets/js.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import mongodb from "../assets/mongodb.png";
-import node from "../assets/node.png";
-import git from "../assets/git.png";
+import html from "../assets/skills/html.png";
+import css from "../assets/skills/css.png";
+import js from "../assets/skills/js.png";
+import react from "../assets/skills/react.png";
+import redux from "../assets/skills/redux.png";
+import mongodb from "../assets/skills/mongodb.png";
+import node from "../assets/skills/node.png";
+import git from "../assets/skills/git.png";
 
 const SkillsSection = () => {
   const technologies = [html, css, js, react, redux, mongodb, node, git];

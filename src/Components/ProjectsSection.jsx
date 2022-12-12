@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
-import carsnow from "../assets/carsnow.png";
-import fxj from "../assets/fxj.png";
-import eashop from "../assets/eashop.png";
-import portfolio from "../assets/portfolio.png";
+import carsnow from "../assets/projects/carsnow.png";
+import fxj from "../assets/projects/fxj.png";
+import eashop from "../assets/projects/eashop.png";
+import portfolio from "../assets/projects/portfolio.png";
 
 const projects = [
   {
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
       id="projects"
       className="pt-4 flex snap-center min-h-screen lg:w-[80%] md:w-[90%] w-[100%] mx-auto text-white overflow-hidden"
     >
-      <div className="flex flex-col justify-between space-y-8 py-4 my-auto mx-auto w-[100%]">
+      <div className="flex flex-col justify-between space-y-8 pb-4 my-auto mx-auto w-[100%]">
         <div className="my-auto mx-auto text-center">
           <p className="text-[2.5rem] px-3 text-slate-200">Projects</p>
         </div>
