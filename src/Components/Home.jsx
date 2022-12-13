@@ -8,7 +8,7 @@ function Home() {
   return (
     <div
       className="flex flex-col h-[100vh] sm:pt-[3rem] mt-0 overflow-y-scroll 
-    hide-scrollbar scroll-smooth snap-start snap-y snap-mandatory"
+    hide-scrollbar scroll-smooth snap-center snap-y snap-mandatory"
     >
       <FirstSection />
       <SkillsSection />

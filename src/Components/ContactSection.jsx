@@ -20,9 +20,9 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="py-12 md:py-4 flex snap-center min-h-screen w-[90%] mx-auto text-white overflow-hidden"
+      className="py-12 md:py-4 flex snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
     >
-      <div className="flex flex-col align-center space-y-6 w-full mx-auto my-auto max-w-xl">
+      <div className="w-[90%] flex flex-col align-center space-y-6 mx-auto my-auto max-w-xl">
         <p className="mx-auto my-auto text-[2.5rem] px-3 text-slate-200">
           Contact
         </p>

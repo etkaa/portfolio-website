@@ -57,9 +57,9 @@ const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="pt-4 flex snap-center min-h-screen lg:w-[80%] md:w-[90%] w-[100%] mx-auto text-white overflow-hidden"
+      className="pt-4 flex snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
     >
-      <div className="flex flex-col justify-between space-y-8 pb-4 my-auto mx-auto w-[100%]">
+      <div className="flex flex-col justify-between space-y-8 pb-4 my-auto mx-auto lg:w-[80%] md:w-[90%] w-[100%]">
         <div className="my-auto mx-auto text-center">
           <p className="text-[2.5rem] px-3 text-slate-200">Projects</p>
         </div>

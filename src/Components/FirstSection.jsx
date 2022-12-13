@@ -5,9 +5,9 @@ const FirstSection = () => {
   return (
     <section
       id="about"
-      className="flex pt-[3rem] md:pt-16 snap-center min-h-screen w-[85%] mx-auto text-white overflow-hidden"
+      className="flex pt-[3rem] md:pt-16 snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
     >
-      <div className="flex flex-col space-y-6 lg:flex-row my-auto mx-auto">
+      <div className="max-w-[85%] flex flex-col space-y-6 lg:flex-row my-auto mx-auto">
         <div className="lg:hidden lg:w-[50%] flex text-center items-center">
           <img
             src={Profile}

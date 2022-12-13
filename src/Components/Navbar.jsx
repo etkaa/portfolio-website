@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-h-[4rem] px-4 md:px-8 absolute mb-0 w-screen text-slate-300 bg-transparent">
+    <nav className="z-50 max-h-[4rem] px-4 md:px-8 absolute mb-0 w-screen text-slate-300 bg-transparent">
       <div className="flex max-w-7xl min-h-[3rem] justify-between items-center text-center mx-auto my-2">
         <div className="flex space-x-4 text-xl lg:text-2xl text-center items-center rounded-xl py-1 bg-[#07316c] px-3">
           <svg
