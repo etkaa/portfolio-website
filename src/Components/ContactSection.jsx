@@ -134,7 +134,7 @@ const ContactSection = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="black"
-              className="w-12 h-12 mx-auto my-auto"
+              className="w-14 h-14 mx-auto my-auto"
             >
               <path
                 strokeLinecap="round"
