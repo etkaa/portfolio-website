@@ -4,10 +4,10 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <Fragment>
+    <div className="my-0 mx-0 py-0 px-0 w-screen h-[100dvh] overflow-y-hidden hide-scrollbar">
       <Navbar />
       <Home />
-    </Fragment>
+    </div>
   );
 }
 

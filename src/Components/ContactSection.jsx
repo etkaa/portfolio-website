@@ -20,7 +20,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="pt-4 md:py-4 flex snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
+      className="pt-[3rem] flex snap-center snap-always min-h-[100dvh] w-[100%] mx-auto text-white overflow-hidden"
     >
       <div className="w-[90%] flex flex-col align-center space-y-6 mx-auto my-auto max-w-xl">
         <p className="mx-auto my-auto text-[2.5rem] px-3 text-slate-200">
