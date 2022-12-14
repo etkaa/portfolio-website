@@ -20,7 +20,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="py-12 md:py-4 flex snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
+      className="pt-4 md:py-4 flex snap-center snap-always min-h-screen w-[100%] mx-auto text-white overflow-hidden"
     >
       <div className="w-[90%] flex flex-col align-center space-y-6 mx-auto my-auto max-w-xl">
         <p className="mx-auto my-auto text-[2.5rem] px-3 text-slate-200">
@@ -48,10 +48,9 @@ const ContactSection = () => {
             placeholder="Your Message"
             onChange={handleChange}
             name="body"
-            className="bg-gray-800 h-[8rem] w-full mx-auto my-auto shadow-md px-2 py-2 rounded-lg outline-none"
+            className="bg-gray-800 h-[8rem] w-full mx-auto my-auto shadow-md px-2 py-2 rounded-lg outline-none resize-none"
           ></textarea>
           <button
-            href="mailto:etka.acikoze@gmail.com"
             type="submit"
             className="w-[30%] h-[12%] my-auto mx-auto rounded-xl flex justify-center items-center
             space-x-2 text-xl text-gray-700 bg-slate-100 hover:bg-cyan-300 transition duration-200"
@@ -100,18 +99,18 @@ const ContactSection = () => {
               {
                 <g
                   fill="none"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
+                  strokeWidth="1"
+                  strokeLinecap="butt"
+                  strokeLinejoin="miter"
+                  strokeMiterlimit="10"
+                  strokeDasharray=""
+                  strokeDashoffset="0"
+                  fontFamily="none"
+                  fontWeight="none"
+                  fontSize="none"
+                  textAnchor="none"
                 >
                   <path d="M0,192v-192h192v192z" fill="none"></path>
                   <g fill="#000000">
