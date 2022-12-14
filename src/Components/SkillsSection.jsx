@@ -15,7 +15,7 @@ const SkillsSection = () => {
     <section
       id="skills"
       // className="flex snap-center min-h-full w-[80%] mx-auto text-white overflow-hidden 2xl:px-52"
-      className="pt-[3rem] flex snap-center snap-always min-h-[100dvh] w-[100%] mx-auto text-white overflow-hidden"
+      className="pt-[3rem] flex snap-center snap-always min-h-[100dvh] w-[100%] max-w-[100rem] mx-auto text-white overflow-hidden"
     >
       <div className="flex flex-col justify-between space-y-4 py-4 my-auto mx-auto w-[80%]">
         <div className="my-auto mx-auto text-center">

@@ -3,6 +3,8 @@ import carsnow from "../assets/projects/carsnow.png";
 import fxj from "../assets/projects/fxj.png";
 import eashop from "../assets/projects/eashop.png";
 import portfolio from "../assets/projects/portfolio.png";
+import LeftScrollArrow from "./UI/LeftScrollArrow";
+import RightScrollArrow from "./UI/RightScrollArrow";
 
 const projects = [
   {
@@ -57,23 +59,29 @@ const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="pt-[3rem] flex snap-center snap-always min-h-[100dvh] w-[100%] mx-auto text-white overflow-hidden"
+      className="pt-[3rem] flex snap-center snap-always min-h-[100dvh] w-[100%] max-w-[102rem] mx-auto text-white overflow-hidden"
     >
       <div className="flex flex-col justify-between space-y-8 pb-4 my-auto mx-auto lg:w-[80%] md:w-[90%] w-[100%]">
         <div className="my-auto mx-auto text-center">
           <p className="text-[2.5rem] px-3 text-slate-200">Projects</p>
         </div>
-        <div className="sm:hidden flex relative">
+        <div
+          name="carousel-wrapper"
+          className="flex justify-between relative"
+        >
           <div
             onClick={leftScrollHandler}
             className="h-full min-w-[3rem] 
-          absolute z-10 cursor-pointer left-0"
-          ></div>
+          absolute z-10 cursor-pointer left-0 flex items-center 
+          opacity-0 hover:opacity-100 transition duration-200 active:opacity-30"
+          >
+            <LeftScrollArrow />
+          </div>
           <div
             name="carousel"
             ref={carousel}
-            className="sm:hidden flex hide-scrollbar snap-x snap-mandatory snap-always scroll-smooth
-           space-x-4 px-10 min-w-[22rem] overflow-x-auto w-[100%] my-auto mx-auto
+            className="flex hide-scrollbar snap-x snap-mandatory snap-always scroll-smooth
+           space-x-4 px-10 min-w-[22rem] max-w-7xl overflow-x-auto my-auto mx-auto
            md:mx-auto place-items-center h-96 relative"
           >
             {projects.map((el) => {
@@ -100,7 +108,7 @@ const ProjectsSection = () => {
                   >
                     <a
                       className="flex justify-center items-center w-[50%] h-[80%] my-auto mx-auto rounded-xl 
-                  text-xl text-slate-100 bg-gray-700 hover:bg-purple-500 
+                  text-xl text-slate-100 bg-gray-700 hover:bg-cyan-300 hover:text-gray-700 
                   transition duration-200"
                       href={el.liveURL}
                       target="_blank"
@@ -109,7 +117,8 @@ const ProjectsSection = () => {
                     </a>
                     <a
                       className="flex justify-center items-center w-[50%] h-[80%] my-auto mx-auto rounded-xl 
-                  text-xl text-gray-700 bg-slate-100 hover:bg-cyan-300 transition duration-200"
+                  text-xl text-gray-700 bg-slate-100 hover:bg-purple-500 hover:text-slate-100 
+                  transition duration-200"
                       href={el.codeURL}
                       target="_blank"
                     >
@@ -122,12 +131,15 @@ const ProjectsSection = () => {
           </div>
           <div
             onClick={rightScrollHandler}
-            className="h-full min-w-[3rem] 
-          absolute z-10 cursor-pointer right-0"
-          ></div>
+            className="h-full min-w-[3rem]
+          absolute z-10 cursor-pointer right-0 flex items-center
+          opacity-0 hover:opacity-100 active:opacity-30 transition duration-200"
+          >
+            <RightScrollArrow />
+          </div>
         </div>
         <div
-          className="hidden sm:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 2xl:grid-cols-4 
+          className="hidden  
         gap-y-10 md:gap-10 w-[100%] lg:w-[80%] 2xl:w-[100%] mx-auto justify-items-center"
         >
           {projects.map((el) => {
