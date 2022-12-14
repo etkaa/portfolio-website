@@ -26,7 +26,7 @@ const Navbar = () => {
               7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
             ></path>
           </svg>
-          <a href="#home" className="font-extralight">
+          <a href="#about" className="font-extralight">
             E T K A <b>D E V</b>
           </a>
         </div>
