@@ -76,7 +76,7 @@ const ContactSection = () => {
           <a
             className="w-[30%] flex"
             target="_blank"
-            href="https://www.github.com/manfromny"
+            href="https://www.github.com/etkaa"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
