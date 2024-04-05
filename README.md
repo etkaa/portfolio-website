@@ -1,3 +1,1 @@
-See it live: https://etkadev.netlify.app
-
-# portfolio-website
+React frontend for my personal website --> https://www.etkaacikoz.com
