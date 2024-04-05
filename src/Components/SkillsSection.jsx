@@ -26,7 +26,7 @@ const SkillsSection = () => {
             return (
               <div
                 key={el}
-                className="flex w-[6rem] h-[6rem] md:w-[8rem] md:h-[8rem] shadow-xl rounded-2xl mx-auto my-auto"
+                className="flex w-[6rem] h-[6rem] md:w-[8rem] md:h-[8rem] shadow-xl rounded-2xl mx-auto my-auto hover:scale-105 transition duration-700"
               >
                 <img
                   src={el}
