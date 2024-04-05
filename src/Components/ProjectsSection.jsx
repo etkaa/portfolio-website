@@ -65,10 +65,7 @@ const ProjectsSection = () => {
         <div className="my-auto mx-auto text-center">
           <p className="text-[2.5rem] px-3 text-slate-200">Projects</p>
         </div>
-        <div
-          name="carousel-wrapper"
-          className="flex justify-between relative"
-        >
+        <div name="carousel-wrapper" className="flex justify-between relative">
           <div
             onClick={leftScrollHandler}
             className="h-full min-w-[3rem] 
@@ -89,7 +86,7 @@ const ProjectsSection = () => {
                 <div
                   key={el.id}
                   className="z-0 flex flex-col snap-center justify-between min-w-[18rem] h-[22rem] 
-              rounded-xl space-y-1 bg-gray-800 shadow-lg"
+              rounded-xl space-y-1 bg-gray-800 shadow-lg lg:hover:scale-105 transition duration-700"
                 >
                   <div className="h-[55%]  rounded-t-xl">
                     <img
